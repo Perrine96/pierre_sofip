@@ -2,7 +2,7 @@
 <?php require_once __DIR__ . '/templates/partials/__nav.php'; ?>
 
 
-<header class="hero-banner d-flex justify-content-center align-items-center text-white text-center">
+<header class="hero-banner d-flex justify-content-center align-items-center text-white text-center ">
   <div class="container">
     <h1 class="mb-4">Bienvenue sur l'espace de gestion des stagiaires</h1>
 

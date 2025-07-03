@@ -16,7 +16,7 @@
     <input type="date" name="date_de_naissance" id="date_de_naissance" required class="form-control mb-4">
 
     <label for="nom">Email</label>
-    <input type="text" name="email" id="email" required class="form-control mb-4">
+    <input type="email" name="email" id="email" required class="form-control mb-4">
 
     <label for="ville">Ville</label>
     <input type="text" name="ville" id="ville" required class="form-control mb-4">

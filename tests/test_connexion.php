@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/../templates/partials/__head.php'; ?>
 <?php require_once __DIR__ . '/../templates/partials/__nav.php'; ?>
 
-<div class="container my-5">
+<div class="container my-5 flex-grow-1">
 
   <h2 class="text-center mb-4">Test de connexion à la base de données</h2>
   <hr>

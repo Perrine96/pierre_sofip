@@ -4,8 +4,8 @@ require_once __DIR__ . '/partials/__head.php';
 require_once __DIR__ . '/partials/__nav.php';
 ?>
 
-<div class="container mt-4">
-    <h1 class="text-center text-primary fw-bold p-3">Stagiaires</h1>
+<div class="container mt-4 flex-grow-1">
+    <h1 class="text-center mb-4 p-3">Stagiaires</h1>
     <table class="table border table-striped"> 
         <thead>
             <tr>
