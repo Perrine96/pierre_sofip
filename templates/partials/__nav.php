@@ -13,7 +13,7 @@
                     <a class="nav-link" href="/pierre_sofip/tests/test_connexion.php">Test</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/pierre_sofip/templates/stagiaires">Stagiaires</a>
+                    <a class="nav-link" href="/pierre_sofip/templates/stagiaires.php">Stagiaires</a>
                 </li>
             </ul>
         </div>
