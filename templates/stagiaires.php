@@ -5,7 +5,7 @@ require_once __DIR__ . '/partials/__nav.php';
 ?>
 
 <div class="container mt-4">
-    <h1 class="text-center">Stagiaires</h1>
+    <h1 class="text-center text-primary fw-bold p-3">Stagiaires</h1>
     <table class="table border table-striped"> 
         <thead>
             <tr>
@@ -28,6 +28,17 @@ require_once __DIR__ . '/partials/__nav.php';
                         <td class="border align-middle text-center">' . htmlspecialchars($ligne['date_de_naissance']) . '</td>
                         <td class="border align-middle text-center">' . htmlspecialchars($ligne['email']) . '</td>
                         <td class="border align-middle text-center">' . htmlspecialchars($ligne['ville']) . '</td>
+
+                        <td class="border align-middle text-center">
+                            <form action="updateStagiaires.php" method="post">
+                            <input type="hidden" name="id" value="' . $ligne['id'] . '">
+                            <input class="btn btn-outline-success my-1" type="submit" value="Modifier">
+                            </form>
+                            <form action="../src/controllers/deleteStagiairesController.php" method="post" onsubmit="confirmerSuppression(event)">
+                            <input type="hidden" name="id" value="' . $ligne['id'] . '">
+                            <input class="btn btn-outline-danger my-1" type="submit" value="Supprimer">
+                            </form>
+                        </td>
                     </tr>';
                 }
             }
